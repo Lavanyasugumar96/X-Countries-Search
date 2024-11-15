@@ -1,0 +1,32 @@
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .countryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 10px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+  }
